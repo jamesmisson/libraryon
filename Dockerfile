@@ -1,4 +1,4 @@
-FROM openjdk:17-slim
+FROM eclipse-temurin:17-jre
 
 # Install wget and unzip
 RUN apt-get update && apt-get install -y wget unzip && rm -rf /var/lib/apt/lists/*
